@@ -1,0 +1,21 @@
+{
+  "name": "phishlens",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PhishLens — a defensive phishing investigation workbench",
+  "workspaces": ["shared", "server", "client"],
+  "engines": { "node": ">=22.12" },
+  "scripts": {
+    "dev": "concurrently -k -n server,client -c blue,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w server && npm run build -w client",
+    "start": "npm run start -w server",
+    "test": "npm run test -w server && npm run test -w client",
+    "test:coverage": "npm run test:coverage -w server",
+    "typecheck": "npm run typecheck -w server && npm run typecheck -w client",
+    "db:init": "npm run db:init -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "typescript": "~5.9.3"
+  }
+}

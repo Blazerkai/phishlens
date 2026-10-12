@@ -1,0 +1,20 @@
+Received: from AM0PR02MB1234.eurprd02.prod.outlook.com (2603:10a6:208:1::11) by
+ DB9PR02MB5678.eurprd02.prod.outlook.com with HTTPS; Tue, 3 Mar 2026 08:01:12
+ +0000
+Authentication-Results: spf=fail (sender IP is 45.133.1.20)
+ smtp.mailfrom=paypal.com; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=quarantine
+ header.from=paypal.com;compauth=fail reason=000
+Received-SPF: Fail (protection.outlook.com: domain of paypal.com does not
+ designate 45.133.1.20 as permitted sender) receiver=protection.outlook.com;
+ client-ip=45.133.1.20; helo=mail.secure-notice.example;
+Received: from mail.secure-notice.example (45.133.1.20) by
+ AM0PR02MB1234.mail.protection.outlook.com (10.167.16.200) with Microsoft SMTP
+ Server id 15.20.1234.12 via Frontend Transport; Tue, 3 Mar 2026 08:01:10 +0000
+Authentication-Results: secure-notice.example; dmarc=pass; spf=pass; dkim=pass
+From: "PayPal Service" <service@paypal.com>
+Reply-To: paypal.resolution.center@gmail.com
+To: victim@corp.example
+Subject: Your account has been limited
+Date: Tue, 3 Mar 2026 08:01:05 +0000
+Message-ID: <abc@mail.secure-notice.example>

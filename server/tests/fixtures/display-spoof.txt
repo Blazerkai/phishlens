@@ -1,0 +1,12 @@
+Return-Path: <bounce@bulk-sender.example>
+Received: from relay.bulk-sender.example (relay.bulk-sender.example [93.184.216.40])
+	by mx.corp.example (Postfix) with ESMTPS id 4XyZ;
+	Wed, 4 Mar 2026 10:00:00 +0000 (UTC)
+Received: from origin.bulk-sender.example (unknown [10.0.0.5])
+	by relay.bulk-sender.example (Postfix) with ESMTP id 1AbC;
+	Wed, 4 Mar 2026 10:20:00 +0000 (UTC)
+Authentication-Results: mx.corp.example; spf=softfail smtp.mailfrom=bounce@bulk-sender.example; dkim=fail (bad signature) header.d=bulk-sender.example; dmarc=none header.from=billing-update.example
+From: "ceo@corp.example" <ceo.office@billing-update.example>
+To: finance@corp.example
+Subject: Urgent wire transfer
+Date: Wed, 4 Mar 2026 10:00:00 +0000

@@ -1,0 +1,13 @@
+{
+  "_comment": "Optional brand watchlist used by the lookalike-domain HEURISTIC. Seeded into the database only when a new database is created; manage it afterwards from Settings. Keep it short and relevant to your organisation: add your own company, its vendors and the services your users actually rely on.",
+  "brands": [
+    { "name": "Microsoft", "keywords": ["microsoft", "office365", "outlook", "onedrive", "sharepoint"], "officialDomains": ["microsoft.com", "office.com", "office365.com", "outlook.com", "live.com", "microsoftonline.com", "sharepoint.com", "onedrive.com", "msft.net", "windows.net"] },
+    { "name": "Google", "keywords": ["google", "gmail"], "officialDomains": ["google.com", "gmail.com", "googlemail.com", "googleusercontent.com", "goo.gl", "youtube.com"] },
+    { "name": "PayPal", "keywords": ["paypal"], "officialDomains": ["paypal.com", "paypal.me", "paypalobjects.com"] },
+    { "name": "Apple", "keywords": ["apple", "icloud", "itunes"], "officialDomains": ["apple.com", "icloud.com", "me.com", "itunes.com"] },
+    { "name": "Amazon", "keywords": ["amazon"], "officialDomains": ["amazon.com", "amazon.co.uk", "amazon.de", "amazon.in", "amazonaws.com", "amazonses.com", "a2z.com"] },
+    { "name": "DocuSign", "keywords": ["docusign"], "officialDomains": ["docusign.com", "docusign.net"] },
+    { "name": "DHL", "keywords": ["dhl"], "officialDomains": ["dhl.com", "dhl.de"] },
+    { "name": "Netflix", "keywords": ["netflix"], "officialDomains": ["netflix.com", "nflxext.com"] }
+  ]
+}
